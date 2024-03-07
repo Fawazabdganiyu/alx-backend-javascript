@@ -1,8 +1,9 @@
-# 0x00-ES6_basic
+# 0x00-ES6_basic
 
 Basic Overview of ES6
 
 ## Learning Objectives
+
 - What ES6 is
 - New features introduced in ES6
 - The difference between a constant and a variable
