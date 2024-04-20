@@ -1,9 +1,10 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+// const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
+  mode: "development",
   entry: "./js/main.ts",
   devtool: "inline-source-map",
   module: {
@@ -24,7 +25,7 @@ module.exports = {
     contentBase: "./dist"
   },
   plugins: [
-    new ForkTsCheckerWebpackPlugin(),
+    // new ForkTsCheckerWebpackPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "Development"

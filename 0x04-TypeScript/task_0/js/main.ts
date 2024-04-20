@@ -23,7 +23,7 @@ const studentsList: Array<Student> = [student1, student2];
 
 window.onload = function() {
   const table = document.createElement("table");
-  
+
   // Create table header row
   const headerRow = document.createElement("tr");
   const header = ["First Name", "Location"];
