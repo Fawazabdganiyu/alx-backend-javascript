@@ -42,7 +42,7 @@ const app = http.createServer(async (req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   if (req.url === '/') {
     res.statusCode = 200;
-    res.end('Hello Holberton School!')
+    res.end('Hello Holberton School!');
   } else if (req.url === '/students') {
     const fileName = process.argv[2];
 
